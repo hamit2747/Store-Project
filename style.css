@@ -1,0 +1,92 @@
+.navbar {
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.navbar .nav-link:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  color: #898181 !important;
+}
+
+.main button {
+  background-color: rgb(81, 81, 162) !important;
+  color: white;
+}
+.main button:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  color: #898181 !important;
+}
+.main .image-future img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.product {
+  background: linear-gradient(110deg, rgba(255, 0, 0, 0.23) 56%, rgba(62, 62, 150, 0.23) 86%) !important;
+  background: url("https://images.unsplash.com/photo-1530533718754-001d2668365a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsdWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  padding: 20px;
+}
+.product .card:hover {
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+}
+.product .card:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  color: #898181 !important;
+  color: white !important;
+  transition: ease 0.8s;
+}
+.product img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
+.album-card:hover p {
+  display: block;
+}
+.album-card p {
+  bottom: 20px;
+  left: 30px;
+  display: none;
+}
+.album img {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.album img:hover {
+  opacity: 0.5;
+  background-color: black;
+  transition: ease 0.5s;
+}
+
+.container-1 {
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.container-1 .list-unstyled {
+  color: white !important;
+}
+
+.about .col-4 {
+  box-shadow: 2px 2px 5px rgb(106, 106, 106);
+}
+.about i {
+  font-size: 70px !important;
+  border-radius: 50%;
+  background-color: #07a5a5;
+  color: black;
+  padding: 10px;
+  padding-top: 5px;
+}/*# sourceMappingURL=style.css.map */

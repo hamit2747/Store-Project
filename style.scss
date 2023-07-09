@@ -1,0 +1,134 @@
+@mixin hover{
+transform: scale(1.1);
+transition: .5s ease;
+color: #898181 !important; 
+}
+
+
+
+
+
+.navbar{
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+
+    .nav-link{
+        &:hover{
+            @include hover;
+        }
+    }
+
+  
+
+}
+
+.main{
+    
+     button{
+        background-color: rgb(81, 81, 162) !important;
+        color: white;
+   
+        &:hover{
+            @include hover;
+          
+        }
+     }
+    .image-future img{
+        border-radius: 50%;
+        object-fit: cover;
+        width: 100%;
+    }
+ 
+
+}
+
+.product{
+    background: linear-gradient(110deg,rgba(255, 0, 0,0.23)56% , rgba(62, 62, 150, 0.23)86%) !important;
+    background: url('https://images.unsplash.com/photo-1530533718754-001d2668365a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsdWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+    padding: 20px;
+ 
+ 
+ 
+     .card{
+    &:hover{
+    background: rgba(0,0,0,0.0);
+    border: 0;
+}
+   
+   
+    &:hover{
+    @include hover;
+    color:white !important;
+    transition: ease .8s;
+   }
+ }
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        padding: 0 15px;
+        margin-top: 10px;
+
+    }
+}
+ 
+.album{
+
+
+
+
+&-card{
+   
+    &:hover{
+   p{
+    display: block;
+}
+    }
+    
+    
+    p{
+        bottom: 20px; 
+        left: 30px;
+        display: none;
+    }
+    
+}
+
+    img{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
+        border-radius: 5px;
+        &:hover{
+            opacity: 0.5;
+            background-color: black;
+            
+            transition: ease .5s;
+        }
+    }
+}
+
+.container-1{
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.container-1 .list-unstyled{
+    color:white !important;
+}
+
+
+.about{
+
+    .col-4{
+        box-shadow: 2px 2px 5px rgb(106, 106, 106);
+    }
+     i{
+        font-size: 70px !important;
+        border-radius: 50%;
+        background-color: #07a5a5;
+        color: black;
+        padding: 10px;
+       padding-top: 5px;
+     }
+}
